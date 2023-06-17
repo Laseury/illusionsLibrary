@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.dragon-ball {
+  margin-right: 10px;
+  width: 40px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+.btn {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+a {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #d25501;
+}
+.btn-inicial {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btn-inicial:hover {
+  background-color: #d25501;
+}
+.usuarios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.usuarios li {
+  list-style: none;
+  margin: 0 10px;
+}
+.ajuste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ajuste div {
+  margin-block: 5px;
+}
+
+.form-editar {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.input-editar {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.btn-editar {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.label-editar {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.btn-editar:hover {
+  background-color: #d25501;
+}
