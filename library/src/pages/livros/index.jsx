@@ -9,7 +9,7 @@ const MyLivro = () => {
     <input type="number" name="volumes" placeholder="Volumes" />
     <input type="text" name="autor" placeholder="Autor" />
     <input type="text" name="volumes" placeholder="Editora" />
-    <input type="submit" value="Cadastrar" class="btn"/></div>
+    <input type="submit" value="Cadastrar" className="btn"/></div>
   )
 }
 

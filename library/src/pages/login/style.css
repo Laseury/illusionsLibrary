@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-/*:root {
+:root {
   --primary: #dd946f;
   --primary-hover: #cd7d7c;
   --secondary: #efd0f8;
   --secondary-hover: #b8a1d9;
   --aura: #9265ca80;
   --background: #261e5a;
-}*/
+}
 
 * {
   margin: 0;
