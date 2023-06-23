@@ -4,6 +4,7 @@ import MyNavbar from './components/nav'
 import Dashboard from './pages/dashboard'
 import MyLivro from './pages/livros'
 import MyLogin from './pages/login'
+import LivroEdit from './pages/livros/LivrosEdit'
 
 const RoutesAPP = () => {
   return (
@@ -16,6 +17,7 @@ const RoutesAPP = () => {
       <Route path='/' element={<Dashboard/>}/>
       <Route path='/livro' element={<MyLivro/>}/>
       <Route path='/login' element={<MyLogin/>}/>
+      <Route exact path="/livros/edit/:id" element={<LivroEdit/>} />
     </Routes>
     </BrowserRouter>
 
