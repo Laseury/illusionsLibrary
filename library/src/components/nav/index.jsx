@@ -17,14 +17,14 @@ const MyNavbar = () => {
           <Nav.Link href="/livro">Cadastrar Livro</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/cliente">Livros Cadastrados</Nav.Link>
+          <Nav.Link href="/ver">Livros Cadastrados</Nav.Link>
         </Nav.Item>
         <Nav.Item dropdown>
           <Nav.Link dropdownToggle>Mais Opções</Nav.Link>
           <Dropdown.Menu>
-            <Dropdown.Item href="/livro">Cadastrar Livro</Dropdown.Item>
-            <Dropdown.Item href="/editar">Editar Livro</Dropdown.Item>
-            <Dropdown.Item href="/ver">Ver Livros</Dropdown.Item>
+            <Dropdown.Item href="">Alex Wesley</Dropdown.Item>
+            <Dropdown.Item href="">Iarla Darly</Dropdown.Item>
+            <Dropdown.Item href="">Luiz Fernando</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item>Bibliotecas estão cheias de ideias, talvez as mais perigosas</Dropdown.Item>
           </Dropdown.Menu>

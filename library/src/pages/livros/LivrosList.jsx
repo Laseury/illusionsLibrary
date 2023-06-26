@@ -64,7 +64,9 @@ const LivrosList = () => {
                 <Link to={`/livros/edit/${livro.id}`}>Editar</Link>
               </td>
               <td>
-                <button onClick={() => deleteLivro(livro.id)}>Excluir</button>
+              <button type="button" onClick={() => deleteLivro(livro.id)}>
+                    Excluir
+                  </button>
               </td>
             </tr>
           ))}
