@@ -1,11 +1,34 @@
-.dragon-ball {
-  margin-right: 10px;
-  width: 40px;
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
 }
-h1 {
-  display: flex;
-  align-items: center;
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #ff6600;
+
+.banner h2 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.livros-em-destaque {
+  text-align: center;
+  padding: 50px;
+}
+
+.livro {
+  display: inline-block;
+  margin: 20
+}
+
+.livro img {
+width: 200px;
 }
