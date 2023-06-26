@@ -95,7 +95,7 @@ const MyLivro = () => {
 
   return (
     <div>
-      <form onSubmit={registerLivro}>
+      <form className='form' onSubmit={registerLivro}> 
         <input
           type="text"
           name="name"
@@ -154,11 +154,11 @@ const MyLivro = () => {
                 <td>{livro.volumes}</td>
                 <td>{livro.autor}</td>
                 <td>{livro.editora}</td>
-                <td>
-                  <button type="button" onClick={() => editLivro(livro.id)}>
+                <td id='buttons'>
+                  <button type="button" className='btn' onClick={() => editLivro(livro.id)}>
                     Editar
                   </button>
-                  <button type="button" onClick={() => deleteLivro(livro.id)}>
+                  <button type="button" className='btn'onClick={() => deleteLivro(livro.id)}>
                     Excluir
                   </button>
                 </td>

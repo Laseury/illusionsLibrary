@@ -15,31 +15,6 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-.dragon-ball {
-  margin-right: 10px;
-  width: 40px;
-}
-h1 {
-  display: flex;
-  align-items: center;
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #ff6600;
-}
-.btn {
-  display: inline-block;
-  padding: 5px;
-  background-color: #ff6600;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  border: none;
-  font-size: 16px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
 a {
   display: inline-block;
   padding: 5px;
@@ -106,13 +81,14 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.btn-editar {
+.btn {
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 5px;
 }
 
 .label-editar {
@@ -120,6 +96,61 @@ a:hover {
   font-weight: bold;
   margin-bottom: 5px;
 }
-.btn-editar:hover {
+.btn:hover {
   background-color: #d25501;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+
+}
+
+th {
+  background-color: #f2f2f2;
+}
+#buttons{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 4px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 5px auto;
+}
+.form input{
+  margin-block: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
