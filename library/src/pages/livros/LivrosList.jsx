@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { collection, getDocs, deleteDoc } from 'firebase/firestore';
 import { db } from '../../services/firebaseConnection';
 import { Link } from 'react-router-dom';
+import './index.css';
 
 const LivrosList = () => {
   const [livros, setLivros] = useState([]);
@@ -37,8 +38,8 @@ const LivrosList = () => {
 
   return (
     <div>
-      <h1>Todos os Livros</h1>
-      <table>
+      <h1 className='titulo'>Todos os Livros</h1>
+      <table className="table">
         <thead>
           <tr>
             <th>ID</th>
@@ -61,10 +62,10 @@ const LivrosList = () => {
               <td>{livro.autor}</td>
               <td>{livro.editora}</td>
               <td>
-                <Link to={`/livros/edit/${livro.id}`}>Editar</Link>
+                <Link to={`/livros/edit/${livro.id}`}><button className='btn'>Editar</button></Link>
               </td>
               <td>
-              <button type="button" onClick={() => deleteLivro(livro.id)}>
+              <button type="button" className='btn' onClick={() => deleteLivro(livro.id)}>
                     Excluir
                   </button>
               </td>

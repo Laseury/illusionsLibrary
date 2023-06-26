@@ -20,7 +20,7 @@ const MyNavbar = () => {
           <Nav.Link href="/ver">Livros Cadastrados</Nav.Link>
         </Nav.Item>
         <Nav.Item dropdown>
-          <Nav.Link dropdownToggle>Mais Opções</Nav.Link>
+          <Nav.Link dropdownToggle>Criadores</Nav.Link>
           <Dropdown.Menu>
             <Dropdown.Item href="">Alex Wesley</Dropdown.Item>
             <Dropdown.Item href="">Iarla Darly</Dropdown.Item>
