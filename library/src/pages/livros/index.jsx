@@ -12,8 +12,6 @@ const MyLivro = () => {
   const [livros, setLivros] = useState([]);
   const [editingId, setEditingId] = useState(null); // Estado para armazenar o ID do livro em edição
 
-  
-
   async function findAllLivros() {
     const livrosRef = collection(db, 'illusionslibrary');
     const querySnapshot = await getDocs(livrosRef);
