@@ -4,6 +4,8 @@ import MyNavbar from './components/nav'
 import Dashboard from './pages/dashboard'
 import MyLivro from './pages/livros'
 import MyLogin from './pages/login'
+import LivroEdit from './pages/livros/LivrosEdit'
+import LivrosList from './pages/livros/LivrosList'
 
 const RoutesAPP = () => {
   return (
@@ -16,6 +18,8 @@ const RoutesAPP = () => {
       <Route path='/' element={<Dashboard/>}/>
       <Route path='/livro' element={<MyLivro/>}/>
       <Route path='/login' element={<MyLogin/>}/>
+      <Route path ='/ver' element={<LivrosList/>}/>
+      <Route path="/livros/edit/:id" element={<LivroEdit/>} />
     </Routes>
     </BrowserRouter>
 
