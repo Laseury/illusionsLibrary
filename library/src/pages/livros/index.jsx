@@ -64,7 +64,8 @@ const MyLivro = () => {
       setVolumes('');
       setAutor('');
       setEditora('');
-      alert('Gravou');
+      alert('Livro cadastrado');
+      window.location.reload()
     } catch (error) {
       console.log(error);
     }
@@ -76,6 +77,7 @@ const MyLivro = () => {
       const livroRef = doc(db, 'illusionslibrary', id);
       await deleteDoc(livroRef);
       alert('Livro excluído');
+      window.location.reload()
     } catch (error) {
       console.log(error);
     }
